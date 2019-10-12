@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="home_work_forms_2.css">
+</head>
+<body>
+	<h1>Lesson FORMS: tags and attributes</h1>
+	<h2>Tell about yourself..</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere assumenda officiis </p>
+
+	<form action="">
+		<fieldset>
+			<legend><strong>Contact information</strong></legend>
+
+			<label for="n_id">Name</label>
+			<input type="text" id="n_id" name="user_name">
+			<br>
+
+			<label for="s_id">Surname</label>
+			<input type="text" id="s_id" name="user_surname">
+			<br>
+
+			Sex
+			<input type="radio" id="m_id" name="sex" value="male" checked>
+			<label for="m_id">Male</label>
+			<input type="radio" id="f_id" name="sex" value="female">
+			<label for="f_id">Female</label>
+			<br>
+
+			<label for="a_id">Age</label>
+			<input type="text" size="2" name="age">years
+
+		</fieldset>
+
+		<fieldset>
+			<legend><strong>More details about yourself</strong></legend>
+
+			<input type="radio" id="y_id" name="sex_details" value="youngster" checked>
+			<label for="y_id">Youngster</label>
+			<br>
+			<input type="radio" id="g_id" name="sex_details" value="girl">
+			<label for="g_id">Girl</label>
+			<br>
+
+			<input type="text" id="num_id" name="birthday">
+			<label for="num_id">Birthday</label>
+			<br>
+
+			<input type="text" id="fam_id" name="family_status">
+			<label for="fam_id">Family status</label>
+			<br>
+			<input type="text" id="soc_id" name="social_status">
+			<label for="soc_id">Social status</label>
+			<br>
+
+			<input type="text" id="h_id" name="homeplace">
+			<label for="h_id">Home place</label>
+
+
+			<p><strong>What are you doing on your daysoff?</strong></p>
+
+			<input type="checkbox" name="sleep" id="sl_id">
+			<label for="sl_id">Sleep</label>
+			<br>
+			<input type="checkbox" name="hang_around" id="hang_id">
+			<label for="hang_id">Hang around with friends</label>
+			<br>
+			<input type="checkbox" name="fishing" id="fishing_id">
+			<label for="fishing_id">Go fishing</label>
+			<br>
+			<input type="checkbox" name="games" id="games_id">
+			<label for="games_id">Play games</label>
+
+
+			<p><strong>Tell about FORMS in book about HTML</strong></p>
+
+
+			<select name="forms">
+				<option value="">Site frequency:</option>
+			</select>
+
+
+			<p><strong>How many books have you read for your life:</strong></p>
+			
+
+			<input type="radio" name="number" id="set1_id" value="0-10">
+			<label for="set1_id">0-10</label>
+			<br>
+			<input type="radio" name="number" id="set2_id" value="11-20">
+			<label for="set2_id">11-20</label>
+			<br>
+			<input type="radio" name="number" id="set3_id" value="21-50">
+			<label for="set3_id">21-50</label>
+			<br>
+			<input type="radio" name="number" id="set4_id" value="50+">
+			<label for="set4_id">50+</label>
+
+
+
+			<p><strong>Your comments:</strong></p>
+			
+			<textarea name="comments" cols="40" rows="5"></textarea>
+			<br>
+
+
+			<select name="pos" size="3">
+				<option value="f_pos">First position</option>
+				<option value="s_pos" selected>Second position</option>
+				<option value="th_pos">Third position</option>
+			</select>
+
+		</fieldset>
+
+		<fieldset>
+			<legend><strong>In conclusion...</strong></legend>
+
+			<input type="text" name="just_text" placeholder="This text for you">
+			<br>
+
+			<label for="e_id"><strong>Email</strong></label>
+			<br>
+			<input type="email" name="email" id="e_id">
+
+			<p><strong>Want to sign up for trendy spam mailing?</strong><br>
+		    <em>Choose the categories</em></p>
+
+			
+			<input type="checkbox" name="equipment" id="eq_id">
+			<label for="eq_id">Equipment</label>
+			<br>
+			<input type="checkbox" name="dinners" id="din_id">
+			<label for="din_id">How to cook dinners</label>
+			<br>
+			<input type="checkbox" name="money" id="mon_id">
+			<label for="mon_id">Earn millions for two days!!</label>
+
+
+			<p><strong>How difficult is it?</strong></p>
+
+			<input type="radio" name="difficult" id="first_id" checked>
+			<label for="first_id">Not at all</label>
+			<br>
+			<input type="radio" name="difficult" id="second_id">
+			<label for="second_id">So-so</label>
+			<br>
+			<input type="radio" name="difficult" id="third_id">
+			<label for="third_id">Too hard</label>
+		</fieldset>
+		<button type="submit">Send</button>
+	</form>
+</body>
+</html>

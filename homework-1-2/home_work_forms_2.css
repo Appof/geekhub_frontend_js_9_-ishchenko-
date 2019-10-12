@@ -1,0 +1,19 @@
+body{
+	width: 500px;
+}
+
+fieldset:first-of-type>input{
+	margin-bottom: 10px;
+}
+
+select:last-of-type{
+	margin: 10px 0;
+}
+
+fieldset:last-of-type>input[type="text"]{
+	margin-bottom: 10px;
+}
+
+button{
+	margin-top: 10px;
+}
